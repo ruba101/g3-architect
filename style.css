@@ -15,6 +15,12 @@ section{
     margin-bottom: 3em;
 }
 
+section>h3{
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0;
+}
+
 .gray{
     color: gray;
 }
@@ -81,6 +87,7 @@ nav li:hover{
 .title{
     font-size: 4em;
     line-height: 1em;
+    overflow: hidden;
 }
 
 .subtitle{
@@ -106,12 +113,6 @@ nav li:hover{
     display: flex;
     align-items: center;
     padding: 5%;
-}
-
-.quick-features-info h3, section>h3{
-    font-size: 3em;
-    line-height: 1em;
-    margin: 0;
 }
 
 .image-grid{
@@ -141,10 +142,11 @@ nav li:hover{
 }
 
 .features h3{
-    border-left: 5px solid #FF900E;
+    border-left: .5em solid #FF900E;
     padding-left: 1em;
     font-size: 3em;
     line-height: 1.2em;
+    overflow: hidden;
 }
 
 .feature-image{
@@ -268,17 +270,19 @@ nav li:hover{
 }
 
 .contact form{
-    width: 500px;
+    max-width: 80%;
 }
 
 .contact input, .contact textarea{
     width: 100%;
-    padding: 10px;
-    border: 2px solid #FF900E;
+    border: .1em solid #FF900E;
     border-radius: 5px;
     color: #FF900E;
-    margin: 5px;
+    margin: .1em;
 }
+
+
+/* Footer Style */
 
 footer{
     background-color: #FF900E1A;
@@ -304,6 +308,10 @@ footer{
 
     nav li{
         margin-left: 5px;
+    }
+
+    .title{
+        font-size: 3em;
     }
 
     .quick-features{
