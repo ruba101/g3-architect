@@ -1,3 +1,4 @@
+/* Common Styles */
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
@@ -7,6 +8,11 @@ body{
 
 img{
     width: 100%;
+}
+
+section{
+    padding: 3em 10%;
+    margin-bottom: 3em;
 }
 
 .gray{
@@ -35,20 +41,16 @@ img{
     color: #FF900E;    
 }
 
+
+
+
+/* Header Styles */
+
 header{
     background-color: #FF900E1A;
     text-align: center;
     padding: 3em 10%;
 }
-
-footer{
-    background-color: #FF900E1A;
-    text-align: center;
-    margin: 50px 10%;
-    border-radius: 5px;
-    padding: 20px;
-}
-
 
 .top-bar{
     display: flex;
@@ -91,16 +93,14 @@ nav li:hover{
     margin-top: 50px;
 }
 
-section{
-    padding: 3em 10%;
-    margin-bottom: 3em;
-}
 
+
+
+/* Quick Features Styles */
 .quick-features{
     display: grid;
     grid-template-columns: 1.1fr .9fr;
 }
-
 
 .quick-features-info{
     display: flex;
@@ -130,6 +130,9 @@ section{
 }
 
 
+
+
+/* Features Styles */
 .features{
     display: grid;
     grid-template-columns: .9fr 1.1fr;
@@ -149,7 +152,6 @@ section{
     align-items: center;
 }
 
-
 .card{
     border-radius: 5px;
     box-shadow: 0 0 50px #ddd;
@@ -164,7 +166,7 @@ section{
 }
 
 
-
+/* Facts Styles */
 
 .facts-info{
     width: 50%;
@@ -189,12 +191,9 @@ section{
 }
 
 .box-content{
-    
     text-align: center;
     max-width: 80%;
     max-height: 80%;
-    /* padding: 2em;
-    margin: 1em; */
 }
 
 .box-content:hover{
@@ -215,6 +214,10 @@ section{
     font-weight: bold;
     color: gray;
 }
+
+
+
+/* Sponsor Styles */
 
 .sponsor{
     text-align: center;
@@ -239,9 +242,12 @@ section{
 
 .sponsor-box-container img:hover{
     filter:grayscale(0)
- }
+}
+
+
 
  /* bonus section contact styles*/
+
 .contact{
     text-align: center;
     margin-bottom: 100px;
@@ -265,8 +271,18 @@ section{
     margin: 5px;
 }
 
+footer{
+    background-color: #FF900E1A;
+    text-align: center;
+    margin: 50px 10%;
+    border-radius: 5px;
+    padding: 20px;
+}
 
-/* Media Query for Mobile Devices */
+
+
+
+/* Media Query for smaller Devices */
 @media (max-width: 767px) {
     
     .top-bar{
