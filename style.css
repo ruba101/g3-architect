@@ -132,6 +132,7 @@ nav li:hover{
 
 
 
+
 /* Features Styles */
 .features{
     display: grid;
@@ -150,6 +151,14 @@ nav li:hover{
     padding-left: 3em;
     display: flex;
     align-items: center;
+}
+
+
+
+.features button{
+    position: relative;
+    left:-2em;
+    bottom: 4em;
 }
 
 .card{
@@ -330,6 +339,15 @@ footer{
 @media (max-width:500px) {
     .fact-box{
         grid-template-columns: 1fr;
+    }
+
+    .feature-image>div{
+        text-align: center;
+    }
+
+    .features button{
+        position: inherit;
+        margin: 0 auto;
     }
 }
 
